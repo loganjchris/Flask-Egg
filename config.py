@@ -10,12 +10,7 @@ class DevelopementConfig(BaseConfig):
     #Database info changes between configs (Future)
     #SQLALCHEMY_DATABASE_URI = os.environ.get('DEVELOPMENT_DATABASE_URI') or  \
     #    'mysql+pymysql://root:pass@localhost/flask_app_db'
-    
- 
-class TestingConfig(BaseConfig):
-    DEBUG = True
-        
- 
+
+
 class ProductionConfig(BaseConfig):
     DEBUG = False
-    
