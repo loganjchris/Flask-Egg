@@ -1,7 +1,6 @@
 import os
 from eggHunt import eggHunt
 from flask_script import Manager, Shell
-from flask_migrate import MigrateCommand
  
 manager = Manager(eggHunt)
  
